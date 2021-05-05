@@ -1,4 +1,46 @@
 # Behave-Allure
+ Behave is an agile software development technique to improve collab between QA, Devs and Business side people
+
+Operates on directories containing feature files and step definition. Behave is a BDD (Behavior Driven Development) approach for python like Cucumber is for Java.
+
+Feature File - For every feature of app we can create a feature file. Extension is .feature. While writing feature file we use Gherkin language which support certain keywords like Given, When , Then etc 
+
+    Scenario - We will have multiple scenarios in a feature file.
+
+        Steps -  Each scenario will have multiple steps
+
+Examples are present in https://pypi.org/project/behave/
+
+Working with Behave:
+
+1. Install Python
+
+2. Install an IDE
+
+3. Install Selenium
+
+4. Behave
+
+Some useful commands -
+
+python --version
+
+pip list : Given the packages which are installed
+
+pip install selenium 
+
+pip install behave
+
+After installing selenium and behave - gave a pip list
+
+Once the installation is done, Open your IDE (Pycharm) and create a new project.
+
+Go to project settings and in Project Interpreter install Selenium and Behave, which means now we can use features of selenium and behave in our project
+ 
+
+
+
+
 New behave allure project
 Behave : Python BDD framework
 
