@@ -5,7 +5,7 @@ Feature: OrangeHRM Login
     When I open orange HRM Homepage
     And Enter username "admin" and password "admin123"
     And Click on login button
-    Then User must successfully login to the Dashboard page
+    Then User must successfully login to the Dashboard page - new addition
 
 
   Scenario Outline: Login to orange HRM with multiple parameters
